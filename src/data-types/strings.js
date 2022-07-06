@@ -6,7 +6,7 @@ const secondName = 'Smith'
 // TODO: Update the code using Javascript string operations and the variables above so that the tests pass.
 
 // Set this variable to firstName and secondName concatenated
-const fullName = null
+const fullName = firstName + secondName;
 
 // Set this variable to the 10th character of the alphabet variable
 const tenthCharacterOfAlphabet = null
