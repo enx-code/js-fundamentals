@@ -5,7 +5,10 @@ const ARRAY_TWO = ['Hello', 'Conditions']
 
 // Use conditional statements to set answerOne to false if ARRAY_ONE is not empty
 // or true if it is empty
-let answerOne
+let answerOne =true
+if () {
+    
+}
 
 // Use conditional statements to set answerTwo to false if ARRAY_TWO is not empty
 // or true if it is empty

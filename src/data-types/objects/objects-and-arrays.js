@@ -22,7 +22,8 @@ const basket = {
 // as well as modify some of the existing code
 
 // Set this variable to the length of the baskets voucher codes array
-const numberOfVoucherCodes = null
+const numberOfVoucherCodes = basket.voucherCodes.length()
+console.log(numberOfVoucherCodes)
 
 // Set this variable to the first element in of the baskets voucher codes array
 const firstVoucherCode = null
