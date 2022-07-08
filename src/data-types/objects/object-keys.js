@@ -21,7 +21,17 @@ const name = book.name
 console.log(name)
 
 // Set this to the isbn 10 value.
+const isbn10 = book.isbn.isbn10
 
+book.category="Programming"
+
+book.pages=464
+
+book.isbn.isbn13="978-0132350884"
+
+delete book.dimensions
+
+delete book.isbn.asin
 
 // Do not edit this exported object
 module.exports = {
