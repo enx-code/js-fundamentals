@@ -58,9 +58,11 @@ let answerFive
 // Use conditional statements to set answerSix to the middle character of STR_SEVEN
 // if STR_SEVEN has an odd number of characters
 const STR_SEVEN = 'Kayla'
-
-let answerSix
-
+let answerSix = STR_SEVEN[2]
+if (STR_SEVEN.length === 5) {
+    
+  console.log(answerSix)
+}
 
 
 
@@ -68,9 +70,10 @@ let answerSix
 // STR_EIGHT if STR_EIGHT has an even number of characters
 const STR_EIGHT = 'Alex'
 
-let answerSeven
-
-
+let answerSeven = STR_EIGHT.slice(1, 3)
+if (STR_EIGHT === 4){
+  console.log(answerSeven)
+}
 
 
 // Set answerEight to the appropriate season based on what MONTH is set to
@@ -88,7 +91,19 @@ let answerSeven
 const MONTH = 'January'
 
 let answerEight
-
+if (MONTH === 'March' || MONTH === 'April' || MONTH === 'May') {
+  answerEight = 'Spring'
+  console.log(answerEight)
+} else if (MONTH === 'June' || MONTH === 'July' || MONTH === 'August') {
+  answerEight = 'Summer'
+  console.log(answerEight)
+} else if (MONTH === 'September' || MONTH ==='October' || MONTH === 'November') {
+  answerEight = 'Autumn'
+  console.log(answerEight)
+} else {
+  answerEight = 'Winter'
+  console.log(answerEight)
+}
 
 
 module.exports = {
