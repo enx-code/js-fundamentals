@@ -1,7 +1,10 @@
 // Use conditional statements to set answerOne to true if STR_ONE is 'Hello'
 const STR_ONE = 'Hello'
-
-let answerOne
+let answer
+if (STR_ONE === 'Hello') {
+  answerOne = true
+  console.log(answerOne)
+}
 
 
 
@@ -10,6 +13,10 @@ let answerOne
 const STR_TWO = 'Goodbye'
 
 let answerTwo
+if (STR_TWO !== 'Hello') {
+  answerTwo = true
+  console.log(answerTwo)
+}
 
 
 
@@ -20,7 +27,11 @@ const STR_THREE = 'Hello'
 const STR_FOUR = 'Good'
 
 let answerThree
+if (STR_THREE.length > STR_FOUR.length) {
+  answerThree = true
+  console.log(answerThree)
 
+}
 
 
 
