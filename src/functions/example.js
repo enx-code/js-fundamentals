@@ -6,6 +6,8 @@
 function sayHi () {
   return 'Hi, Ed!'
 }
+let string = sayHi()
+console.log(string)
 
 // Define a function that increments (adds 1 to ) a number
 // Input   | Output
@@ -15,9 +17,12 @@ function sayHi () {
 function incrementNumber (num) {
   return num + 1
 }
+let inc = incrementNumber(3)
+console.log(inc)
 
 // change the exported value to be the name of the function you defined
 module.exports = {
   a: sayHi,
   b: incrementNumber
 }
+
