@@ -39,20 +39,43 @@ if (STR_THREE.length > STR_FOUR.length) {
 // to false if STR_FIVE has an odd number of vowels, or true if it has an
 // even number
 const STR_FIVE = 'Alex'
+const vowels =['A', 'e', 'o', 'i']
+let vowelCount = 0
 
 let answerFour
+for (let i = 0; i < STR_FIVE.length; i++) {
+  // console.log(STR_FIVE[i])
+  if (vowels.includes(STR_FIVE[i])){
+  vowelCount++
 
+  } 
+}
+if (vowelCount % 2 === 0) {
+  answerFour = true
+} else {
+  answerFour = false
+}
+console.log(answerFour)
 
 
 
 // Use a combination of a loop and conditional statements to set answerFive
 // to false if STR_SIX has an odd number of vowels, or true if it has an
 // even number
+
 const STR_SIX = 'Joanna'
+let vowelsCountJoanna = 0
 
 let answerFive
-
-
+const vowelsM = ['o', 'a', 'u', 'i']
+for (let i = 0; STR_SIX.length > i; i++) {
+  // console.log(STR_SIX[i])
+  if (vowelsM.includes(STR_SIX[i])) {
+  vowelsCountJoanna++
+  }
+}
+answerFive = vowelsCountJoanna % 2 ===0
+console.log(answerFive)
 
 
 // Use conditional statements to set answerSix to the middle character of STR_SEVEN
@@ -72,7 +95,7 @@ const STR_EIGHT = 'Alex'
 
 let answerSeven = STR_EIGHT.slice(1, 3)
 if (STR_EIGHT === 4){
-  console.log(answerSeven)
+  //  console.log(answerSeven)
 }
 
 
@@ -93,16 +116,16 @@ const MONTH = 'January'
 let answerEight
 if (MONTH === 'March' || MONTH === 'April' || MONTH === 'May') {
   answerEight = 'Spring'
-  console.log(answerEight)
+  // console.log(answerEight)
 } else if (MONTH === 'June' || MONTH === 'July' || MONTH === 'August') {
   answerEight = 'Summer'
-  console.log(answerEight)
+  // console.log(answerEight)
 } else if (MONTH === 'September' || MONTH ==='October' || MONTH === 'November') {
   answerEight = 'Autumn'
-  console.log(answerEight)
+  // console.log(answerEight)
 } else {
   answerEight = 'Winter'
-  console.log(answerEight)
+  // console.log(answerEight)
 }
 
 
